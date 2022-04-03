@@ -20,7 +20,7 @@ export default function createLander() {
     let heroCont = document.createElement("div");
     heroCont.classList.add("lander-hero-cont");
     let heroImage = document.createElement("img");
-    heroImage.src = "../src/img/naseem-buras-XHmq_LvACeE-unsplash.jpg";
+    heroImage.src = "./img/naseem-buras-XHmq_LvACeE-unsplash.jpg";
 
     parentCont.appendChild(mainCont);
     mainCont.appendChild(textCont);
